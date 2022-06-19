@@ -8,10 +8,9 @@
 import Foundation
 
 public struct LocalFileWriter: FileWriter {
-    
     let fileManager: FileManager
     
-    init(fileManager: FileManager = FileManager.default) {
+    public init(fileManager: FileManager = FileManager.default) {
         self.fileManager = fileManager
     }
     

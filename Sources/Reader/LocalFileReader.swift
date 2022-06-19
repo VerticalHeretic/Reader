@@ -10,7 +10,7 @@ import Foundation
 public struct LocalFileReader: FileReader {
     let fileManager: FileManager
     
-    init(fileManager: FileManager = FileManager.default) {
+    public init(fileManager: FileManager = FileManager.default) {
         self.fileManager = fileManager
     }
     
